@@ -1,0 +1,12 @@
+{
+	"forms": {
+		"PlainForm": {
+			"timeStamp": "2025-06-27T11:04:14Z",
+			"destination": "detailScreen"
+		},
+		"WebAreaForm": {
+			"timeStamp": "2025-06-27T10:16:09Z",
+			"destination": "detailScreen"
+		}
+	}
+}
