@@ -34,7 +34,9 @@ Case of
 			
 			C_TEXT:C284($jsResult_t)
 			
-			$jsResult_t:=WA Evaluate JavaScript:C1029(*; "oWebArea"; $js_t; Is text:K8:3)
+			//$jsResult_t:=WA Evaluate JavaScript(*; "oWebArea"; $js_t; Is text)
+			
+			CALL FORM:C1391(Current form window:C827; "ExecuteJs"; "oWebArea"; $js_t)
 			
 		End if 
 		
