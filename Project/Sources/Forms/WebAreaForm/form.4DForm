@@ -44,11 +44,23 @@
 					"width": 834,
 					"height": 562,
 					"webEngine": "embedded"
+				},
+				"Button": {
+					"type": "button",
+					"text": "Print...",
+					"top": 599,
+					"left": 761,
+					"width": 97,
+					"height": 28,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
 				}
 			}
 		}
 	],
-	"geometryStamp": 3,
+	"geometryStamp": 6,
 	"method": "method.4dm",
 	"editor": {
 		"activeView": "View 1",
